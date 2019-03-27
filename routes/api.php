@@ -22,5 +22,5 @@ Route::group([
     'middleware' => '',
     'namespace' => 'Api'
         ], function() {
-        	Route::any('testFirst', 'testController@testFirst');
+        	Route::any('testfirst', 'testController@testFirst');
         });
