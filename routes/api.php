@@ -23,4 +23,4 @@ Route::group([
     'namespace' => 'Api'
         ], function() {
         	Route::any('testFirst', 'testController@testFirst');
-        })
+        });
